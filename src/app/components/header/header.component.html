@@ -1,0 +1,36 @@
+<header class="site-navbar py-4" role="banner">
+
+  <div class="container">
+    <div class="d-flex align-items-center">
+      <div class="site-logo">
+        <a href="index.html">
+          <img src="assets/images/logo.png" alt="Logo">
+        </a>
+      </div>
+      <div class="ml-auto">
+        {{name | reverse}}
+        <nav class="site-navigation position-relative text-right" role="navigation">
+          <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+            <li class="active"><a href="index.html" class="nav-link">Home {{dateNow | date: 'yyyy-MM-dd HH:mm'}}</a></li>
+            <li><a routerLink='matches' class="nav-link">Matches</a></li>
+            <li><a routerLink= 'contact' class="nav-link">Contact</a></li>
+            <li><a routerLink= 'login' class="nav-link">Login</a></li>
+            <li><a routerLink= 'signup' class="nav-link">signup</a></li>
+            <li><a routerLink= 'add-match' class="nav-link">add-match</a></li>
+            <li><a routerLink= 'matches2' class="nav-link">matches2</a></li>
+            <li><a routerLink= 'players' class="nav-link">players</a></li>
+            <li><a routerLink= 'display-match' class="nav-link">display-match</a></li>
+            <li><a routerLink= 'admin' class="nav-link">admin</a></li>
+
+
+
+          </ul>
+        </nav>
+
+        <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
+            class="icon-menu h3 text-white"></span></a>
+      </div>
+    </div>
+  </div>
+
+</header>

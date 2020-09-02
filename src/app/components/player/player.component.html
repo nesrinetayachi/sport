@@ -1,0 +1,32 @@
+<h2 class="heading">Our Blog</h2>
+<div class="row">
+    <div class="col-lg-6">
+        <span class="score">{{data1.date}}-{{data1.name}}</span>
+        <div class="custom-media d-flex">
+            <div class="img mr-4">
+                <img [src]=data1.image alt="Image" class="img-fluid">
+            </div>
+            <div class="text">
+                <span class="meta">{{data1.date}}</span>
+                <h3 class="mb-4"><a href="#">{{data1.name}}</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt saepe tempora
+                    dolorem.</p>
+                <p><a href="#">Read more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="custom-media d-flex">
+            <div class="img mr-4">
+                <img [src]=data1.image alt="" class="img-fluid">
+            </div>
+            <div class="text">
+                <span class="meta">{{data1.date}}</span>
+                <h3 class="mb-4"><a href="#">{{data1.name}}</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt saepe tempora
+                    dolorem.</p>
+                <p><a href="#">Read more</a></p>
+            </div>
+        </div>
+    </div>
+</div>
