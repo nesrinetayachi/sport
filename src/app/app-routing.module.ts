@@ -1,3 +1,5 @@
+import { UserServiceComponent } from './components/services/user-service/user-service.component';
+import { UserService } from './services/user.service';
 import { EditComponent } from './components/edit/edit.component';
 
 import { DisplayUserComponent } from './components/display-user/display-user.component';

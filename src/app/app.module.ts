@@ -33,6 +33,7 @@ import { DisplayPlayerComponent } from './components/display-player/display-play
 import { DisplayUserComponent } from './components/display-user/display-user.component';
 import { AllUsersComponent } from './components/all-users/all-users.component';
 import { EditComponent } from './components/edit/edit.component';
+import { TrColorDirective } from './directives/tr-color.directive';
 
 
 
@@ -65,7 +66,8 @@ import { EditComponent } from './components/edit/edit.component';
     DisplayUserComponent,
     AllUsersComponent,
     EditComponent,
-    ReversePipe
+    ReversePipe,
+    TrColorDirective
     
   ],
   imports: [

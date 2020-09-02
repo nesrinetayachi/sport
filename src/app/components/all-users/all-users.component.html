@@ -4,6 +4,7 @@
             <thead>
                 <tr>
                     <th >Id</th>
+                    <th >Id</th>
                     <th>First Name</th>
                     <th>Last Name</th> 
                     <th>Actions</th>
@@ -12,7 +13,7 @@
             
                     
                 
-                <tr *ngFor='let u of users'>
+                <tr *ngFor='let u of users'appTrColor>
                     <th scope="row">1</th>
                      <td>{{u.id}}</td>
                     <td>{{u.lastName}}</td>
